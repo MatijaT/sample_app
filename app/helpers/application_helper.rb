@@ -5,11 +5,11 @@ image_tag("logo.png", :alt => "Sample App", :class => "round")
 end
 
 def title
-base_title="Ruby on Rails Tutorial Sample App"
+@base_title="Ruby on Rails Tutorial Sample App"
 if @title.nil?
- base_tile
+ @base_tile
 else
- "#{base_title} |#{@title}"
+ "#{@base_title} |#{@title}"
 end
 end
 end
